@@ -22,7 +22,7 @@ test('OrangeHRM Demo', async ({ page }) => {
   await expect(page.getByText('Successfully Updated')).toBeVisible();
 });
 
-test('OrangeHRM Demo - Dashboard Verification', async ({ page }) => {
+test('OrangeHRM Demo', async ({ page }) => {
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
   await expect(page.getByRole('img', { name: 'company-branding' })).toBeVisible();
   await expect(page.getByRole('img', { name: 'orangehrm-logo' })).toBeVisible();

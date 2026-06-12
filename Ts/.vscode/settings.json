@@ -1,0 +1,7 @@
+{
+    "snyk.advanced.autoSelectOrganization": true,
+    "code-runner.executorMap": {
+        "typescript": "npx tsx"
+    },
+    "code-runner.runInTerminal": true
+}

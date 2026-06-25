@@ -24,5 +24,5 @@ console.log(`The first letter of first name  is ${firstName[0]}.`);
 animals.unshift("lion");
 console.log(animals)
 
-animals.shift
+animals.shift()
 console.log(animals)
